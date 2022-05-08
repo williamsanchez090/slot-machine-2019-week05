@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(./back.jfif);
+  color: rgb(133, 13, 111);
+  animation-name: list;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  width: 33%;
+  justify-content: space-evenly;
+  margin-left: 150px;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: space-evenly;
+}
+@keyframes list {
+  0% {
+    background-image: url("./back.jfif");
+    background-size: cover;
+  }
+  25% {
+    background-image: url("./group.jfif");
+  }
+  50% {
+    background-image: url("./tiny.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("./wrecked.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
