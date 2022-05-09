@@ -31,20 +31,25 @@ img {
 }
 @keyframes list {
   0% {
-    background-image: url("./back.jfif");
+    background-image: url('./back.jfif');
     background-size: cover;
   }
   25% {
-    background-image: url("./group.jfif");
+    background-image: url('./group.jfif');
   }
   50% {
-    background-image: url("./tiny.jfif");
+    background-image: url('./tiny.jfif');
     background-repeat: no-repeat;
     background-size: cover;
   }
   100% {
-    background-image: url("./wrecked.jpg");
+    background-image: url('./wrecked.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+h1,
+h2,
+h3 {
+  background: gray;
 }
