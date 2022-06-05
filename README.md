@@ -1,24 +1,16 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine Simulation
+![image](https://user-images.githubusercontent.com/101963767/172075780-4fe04ab9-1879-4b8c-ae39-519796c0c1f0.png)
 
-### Goal: Build a Simple Slot Machine
+A HTML5, CSS3, and Vanilla Javascript Slot Machine. This app has several features including an animated slot reel, with 6 items per reel and 3 reels. User can bet min or max and have their total update.
+## How It's Made:
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+**Languages used:** HTML5, CSS3, JavaScript
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Optimizations
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Make The third image cleaner at different keyframes
+
+## Lessons Learned:
+
+How to use Javascript for animation and effects.
